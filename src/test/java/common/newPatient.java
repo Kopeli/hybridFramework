@@ -14,9 +14,7 @@ public class newPatient {
 		driver = new ChromeDriver();
 		driver.get("http://demo.openemr.io/openemr/");
 	}
-	public void mTT() {
-		
-	}
+
 	public void closeBrowser() {
 		driver.close();
 	}
